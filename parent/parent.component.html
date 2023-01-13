@@ -1,0 +1,6 @@
+<h1>Parent Component</h1>
+<h1>{{childDataReceived}}</h1>
+<!-- <app-child [EmployeeName]="Ename" [EmployeeObject]="EObj"></app-child> -->
+<hr>
+
+<app-child (childStringData)="ReceiveData($event)"></app-child>
